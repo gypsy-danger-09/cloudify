@@ -1,4 +1,4 @@
-const { europeanUnionCountries } = require("../constant");
+const { europeanUnionCountries } = require("../countries");
 
 function vatChecker(country) {
   if (country === "India") {
